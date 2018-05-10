@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+/media/web7296/AC73-D68C/Formação/Caelum/FJ21/workspace/fj21-tarefas/.metadata/.plugins/org.eclipse.jdt.core
+1647358700.index
+355581979.index
+3851181038.index
+167827848.index

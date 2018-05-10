@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+	<body>
+	<c:import url="cabecalho.jsp" />
+		<h1>Adiciona Contatos</h1>
+		<hr />
+		<form action="adicionaContato">
+		<table>
+			<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="nome" /><br /></td>
+			</tr>
+			<tr>
+			<td>E-mail:</td> 
+			<td><input type="text" name="email" /><br /></td>
+			</tr>
+			<tr>
+			<td>Endereço:</td> 
+			<td><input type="text" name="endereco" /><br /></td>
+			</tr>
+			<tr>
+			<td>Data Nascimento:</td> 
+			<td><input type="text" name="dataNascimento" /><br /></td>
+			</tr>
+		</table>
+			<input type="submit" value="Gravar" />
+		
+		</form>
+		<c:import url="rodape.jsp" />
+	</body>
+</html>

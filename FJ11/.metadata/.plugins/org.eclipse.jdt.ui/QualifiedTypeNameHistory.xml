@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.caelum.Conta"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.OlaMundo"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.TelaDeContas"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.SistemaBancario"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.main.Tributavel"/>
+<fullyQualifiedTypeName name="br.com.caelum.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="banco.ContaCorrente"/>
+<fullyQualifiedTypeName name="AreaCalculavel"/>
+<fullyQualifiedTypeName name="Retangulo"/>
+<fullyQualifiedTypeName name="banco.Conta"/>
+<fullyQualifiedTypeName name="banco.Tributavel"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TestaErro.java&apos; to &apos;FJ11-Contas/src/br.com.caelum.contas.modelo&apos;&#x0A;- Original project: &apos;FJ11&apos;&#x0A;- Destination element: &apos;FJ11-Contas/src/br.com.caelum.contas.modelo&apos;&#x0A;- Original element: &apos;TestaErro.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=FJ11-Contas/src&lt;br.com.caelum.contas.modelo" element1="/src&lt;{TestaErro.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1512221913373" units="1" version="1.0"/>
+</session>

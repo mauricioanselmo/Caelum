@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;FJ11-Contas/src/br/com/caelum/contas/modelo/ManipuladorDeSeguroDeVida.java&apos;" deleteContents="false" description="Delete resource &apos;FJ11-Contas/src/br/com/caelum/contas/modelo/ManipuladorDeSeguroDeVida.java&apos;" element1="/FJ11-Contas/src/br/com/caelum/contas/modelo/ManipuladorDeSeguroDeVida.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1512215596931"/>
+</session>

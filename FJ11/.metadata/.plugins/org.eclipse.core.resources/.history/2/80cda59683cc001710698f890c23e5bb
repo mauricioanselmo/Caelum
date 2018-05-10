@@ -1,0 +1,9 @@
+
+public class TestaConta {
+
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.setTitular("Ana");
+		conta.deposita(500.8);
+	}
+}

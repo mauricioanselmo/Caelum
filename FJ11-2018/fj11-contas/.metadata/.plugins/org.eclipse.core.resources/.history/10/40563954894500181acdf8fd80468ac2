@@ -1,0 +1,88 @@
+package br.com.caelum.contas.modelo;
+
+import br.com.caelum.javafx.api.util.Evento;
+
+public abstract class Conta implements Comparable<Conta>{
+	private String titular;
+	private int numero;
+	private String agencia;
+	protected double saldo;
+	public String dataDeAbertura;
+	
+	public boolean equals(Object obj){
+		if (obj == null){
+			return false;
+		}
+		Conta outraConta = (Conta) obj;
+		return this.numero == outraConta.numero &&
+				this.agencia.equals(outraConta.agencia);
+	}
+	
+	@Override
+	public String toString(){
+		return "[titular=" + titular.toUpperCase() + ", numero=" + numero
+				+ ", agencia=" + agencia + "]";
+	}
+	
+	public String getTipo(){
+		return "Conta";
+	}
+	
+	public void transfere(double valor, Conta conta){
+		this.saca(valor);
+		conta.deposita(valor);
+	}
+	
+	public void saca(double valor){
+		if (this.saldo > valor){
+			this.saldo -= valor;
+		}
+	}
+	
+	public void deposita(double valor){
+		if (valor < 0){
+			throw new IllegalArgumentException("Você tentou depositar um valor negativo");
+		}
+			this.saldo += valor;
+	}
+	
+	public double calculaRendimento(){
+		return this.saldo * 0.1;
+	}
+	
+	public double getSaldo(){
+		return this.saldo;
+	}
+	
+	public int getNumero(){
+		return this.numero;
+	}
+	
+	public String getAgencia(){
+		return this.agencia;
+	}
+	
+	public void setNumero(int numero){
+		this.numero = numero;
+	}
+	
+	public void setAgencia(String agencia){
+		this.agencia = agencia;
+	}
+	
+	public void setTitular(String titular){
+		this.titular = titular;
+	}
+	
+	public String getTitular(){
+		return this.titular;
+	}
+	
+		public Conta(){
+			
+		}
+		
+		public Conta(String titular){
+			this.titular = titular;
+		}
+}

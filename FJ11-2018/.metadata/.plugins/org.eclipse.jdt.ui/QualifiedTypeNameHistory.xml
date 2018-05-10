@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.OlaMundo"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.TelaDeContas"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Tributavel"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

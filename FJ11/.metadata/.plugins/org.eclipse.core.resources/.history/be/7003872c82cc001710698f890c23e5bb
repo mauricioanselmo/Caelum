@@ -1,0 +1,9 @@
+
+public class Conta {
+	private String titular;
+	private double saldo;
+	private int numero;
+	private String agencia;
+	private String dataDeAbertura;
+	
+}
